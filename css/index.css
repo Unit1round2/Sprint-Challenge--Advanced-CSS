@@ -336,23 +336,26 @@ footer {
   padding-left: 15%;
   padding-bottom: 3%;
 }
-.form h2 form {
+.form form {
   width: 80%;
   height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.form h2 form label {
+.form form label {
   font-size: 2rem;
 }
-.form h2 form input {
+.form form input {
   height: 5vh;
 }
 @media (max-width:500px) {
-  .form h2 .headingimg {
+  .form .headingimg {
     width: 100%;
   }
+}
+.form button {
+  background-color: red;
 }
 @keyframes example {
   0% {
