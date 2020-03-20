@@ -33,14 +33,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Responsive is fluid and adapts to the screen size.
+
+Adaptive used static layouts on breakpoints
 
 2. Describe what it means to be mobile first vs desktop first.
 
+You start building the site as mobile and grow it to the desktop with media queries
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+its makes all the font size adaptive to the screen size.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+It allows you to use features that dont exist in pure css. Such as mixin and nesting.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Variables are my favorite and mixins give me trouble.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,12 +61,12 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x ] Create a forked copy of this project.
+- [x ] Add your project manager as collaborator on Github.
+- [x ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [ x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x ] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -78,7 +89,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [ x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -94,11 +105,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [x ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [ x] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [x ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
 * [ ] Navigation Styles: Use the `navigation.less` file for styling.
 
